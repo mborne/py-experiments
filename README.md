@@ -9,7 +9,6 @@ Some basic examples to test [numpy](https://numpy.org/doc/stable/user/quickstart
 | [fitting](fitting/README.md) | Estimate line and circle parameters from noisy points (least squares, gradient descent, autograd) |
 | [neural-networks](neural-networks/README.md) | Basic neural networks with pytorch |
 | [geometry](geometry/README.md) | Computational geometry algorithms (tangents, intersections) |
-| [geoplateforme](geoplateforme/README.md) | Use IGN Geoplateforme services (WMS, ...) |
 | [misc](misc/README.md) | Miscellaneous experiments (colormap, ...) |
 
 ## Usage
