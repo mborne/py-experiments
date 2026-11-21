@@ -10,7 +10,7 @@ Some basic examples to test [numpy](https://numpy.org/doc/stable/user/quickstart
 | [neural-networks](neural-networks/README.md) | Basic neural networks with pytorch |
 | [geometry](geometry/README.md) | Computational geometry algorithms (tangents, intersections) |
 | [geoplateforme](geoplateforme/README.md) | Use IGN Geoplateforme services (WMS, ...) |
-| [imaging](imaging/README.md) | Image and color manipulations |
+| [misc](misc/README.md) | Miscellaneous experiments (colormap, ...) |
 
 ## Usage
 
