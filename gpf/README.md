@@ -1,4 +1,4 @@
-# geoplateforme
+# gpf
 
 Examples using [IGN Geoplateforme](https://geoservices.ign.fr/) services (requires network access).
 
