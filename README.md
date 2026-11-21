@@ -1,14 +1,16 @@
-# numpy-experiments
+# py-experiments
 
-Some basic examples to test [numpy](https://docs.scipy.org/doc/numpy/user/quickstart.html), [matplotlib](https://matplotlib.org/index.html) and [pytorch](https://pytorch.org/).
+Some basic examples to test [numpy](https://numpy.org/doc/stable/user/quickstart.html), [matplotlib](https://matplotlib.org/), [pytorch](https://pytorch.org/) and [IGN Geoplateforme](https://geoservices.ign.fr/) services.
 
 ## Examples
 
-* [01-noisy-line](01-noisy-line.ipynb) : Estimate line parameters using [numpy.linalg.lstsq](https://numpy.org/doc/2.1/reference/generated/numpy.linalg.lstsq.html) (classical approach using linear algebra)
-* [02-noisy-circle](02-noisy-circle.ipynb) : Estimate circle parameters using [numpy.linalg.lstsq](https://numpy.org/doc/2.1/reference/generated/numpy.linalg.lstsq.html) (same as 01-noisy-line except that linearization is required for non linear equations)
-* [03-noisy-circle-gradient](03-noisy-circle-gradient.ipynb) : Estimate circle parameters using **gradient descent** with **symbolic differentiation** (before testing autograd from pytorch).
-* [04-noisy-circle-autograd](04-noisy-circle-autograd.ipynb) : Estimate circle parameters using **gradient descent** with **autograd** from pytorch.
-
+| Theme | Description |
+|---|---|
+| [fitting](fitting/README.md) | Estimate line and circle parameters from noisy points (least squares, gradient descent, autograd) |
+| [neural-networks](neural-networks/README.md) | Basic neural networks with pytorch |
+| [geometry](geometry/README.md) | Computational geometry algorithms (tangents, intersections) |
+| [geoplateforme](geoplateforme/README.md) | Use IGN Geoplateforme services (WMS, ...) |
+| [imaging](imaging/README.md) | Image and color manipulations |
 
 ## Usage
 
@@ -20,6 +22,12 @@ uv sync
 # start jupyter notebook (should open browser)
 uv run --with jupyter jupyter lab
 ```
+
+## Adding an example
+
+* Put it in the folder of its theme (or create a new theme folder with a `README.md`) and list it in the theme `README.md`.
+* Use kebab-case file names. Use a numeric prefix (`01-`, `02-`, ...) only for progressive series.
+* Store input data in `<theme>/data/` and write generated files to `<theme>/output/` (ignored by git).
 
 ## License
 
